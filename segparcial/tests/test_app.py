@@ -1,4 +1,4 @@
-#from app import index
-import src.app as app
+from app import index
+
 def test_index():
-    assert app.index() == "Hola mundo"
+    assert index() == "Hola mundo"
